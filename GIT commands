@@ -21,3 +21,8 @@ Q.3)Learn what the following git commands do:
  git log=review and read every changes that have happen to the repository
  git show=  view expanded details on Git objects such as blobs, trees, tags, and commits
  git branch=lets us create, list, rename, and delete branches
+ 
+ 
+ 	Write a git command to remove a particular branch from a local repository.
+  
+ Ans: git branch --delete <branchname>
