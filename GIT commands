@@ -1,0 +1,23 @@
+Q.1) Write a git command to add all the new and modified files
+
+Ans: git add --all
+
+Q.2) Write a git command to commit directly without publishing to the staging environment.
+Ans: git add -u
+
+Q.3)Learn what the following git commands do:
+ git init= creates new repository
+ 
+ git clone = used to make local copy of the remote repository
+ 
+ git diff= used to find out difference in files, branches,changes etc
+ 
+ git reset=git reset is a powerful command that is used to undo local changes to the state of a Git repo. Git reset operates on "The Three Trees of Git". 
+              These trees are the Commit History (HEAD), the Staging Index, and the Working Directory. 
+             There are three command line options that correspond to the three trees. The options --soft, --mixed, and --hard can be passed to git reset.
+             
+ git rm= The git rm command removes the file from both the git repository and the local file system. 
+ 
+ git log=review and read every changes that have happen to the repository
+ git show=  view expanded details on Git objects such as blobs, trees, tags, and commits
+ git branch=lets us create, list, rename, and delete branches
